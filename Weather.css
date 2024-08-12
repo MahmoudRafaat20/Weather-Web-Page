@@ -1,0 +1,126 @@
+body {
+    padding: 0px 0px;
+}
+
+.Header {
+    background-color: #262a36;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col p {
+    font-size: xx-large;
+}
+
+.Header ul {
+    align-items: center;
+}
+
+.Header ul li {
+    padding: 0px 20px; 
+    margin: 5px;
+}
+
+a {
+    cursor: pointer;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: #25a6d9 !important;
+    background-color: aliceblue;
+    transition: 0.2s;
+}
+
+.Header ul li button {
+    background-color: transparent;
+    border-color: #25a6d9;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.Header ul li button:hover {
+    background-color: aliceblue;
+}
+
+.Status {
+    background-image: url(Images/0_London-at-sunset.webp);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 90px 0px;
+}
+
+.Status button {
+    color: ivory;
+    border: none;
+}
+
+button {
+    border-radius: 20px !important;
+    color: aliceblue;
+    padding: 5px 25px;
+    
+}
+
+button:hover {
+    background-color: aliceblue !important;
+    color: #25a6d9 !important;
+    transition: 0.2s !important;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 40%;
+    padding: 5px;
+    background-color: #262a36;
+}
+
+.row {
+    padding: 0px 50px;
+    border-radius: 15px !important;
+}
+
+.Status input {
+    margin-bottom: 30px;
+    width: 50%;
+    padding: 7px 15px;
+}
+
+
+.tomorrow {
+    background-color: #323544;
+}
+
+.Footer {
+    background-color: #323544;
+}
+
+.Footer button {
+    color: aliceblue;
+    border: none;
+    padding: 7px 10px;
+
+}
+
+span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col {
+    padding: 80px 0px;
+}
+
+.fa-brands:hover {
+    background-color: aliceblue;
+    transition: 0.3s;
+}
+
+.fa-brands {
+    background-color: #262a36;
+    padding: 8px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}

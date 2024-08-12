@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <Link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <script defer src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Weather.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="Weather.js"></script>
+</head>
+
+<body>
+    <div class="Header ">
+        <div class="logo p-2">
+            <i class="m-1 fa-solid fa-cloud fa-2xl" style="color: #74C0FC;"></i>
+            <span class="text-light"> Weather <br>tagline goes here</span>
+        </div>
+        <div class="p-2">
+            <ul class="nav justify-content-end  text-light">
+                <li><button>Home</button></li>
+                <li><a>News</a></li>
+                <li><a>Live Cameras</a></li>
+                <li><a>Photos</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Status text-center">
+        <input class="text-light" type="text" placeholder="Find your location... " id="location">
+        <button id="find-button" type="button" class="btn btn-info text-center">Find</button>
+        <div class="row text-light  bg-dark m-5">
+
+            <div class="col" id="Today">
+                <p>Sunday:4th August</p>
+                <i class="m-5 p-5 fa-regular fa-moon fa-2xl" style="color: #74C0FC;"></i>
+                 <h1 id="value">Cairo</h1>
+                <p>30.3<sup>o</sup>c</p>
+                <p class="text-primary">Clear</p>
+                <div class="nav m-1">
+                    <div class="p-3">
+                        <p> <i class="m-1 fa-solid fa-umbrella fa-l" style="color: #a6a6a6;"></i>20%</p>
+                    </div>
+                    <div class="p-3">
+                        <p><span class="m-1 material-symbols-outlined">air</span>18Km/h</p>
+                    </div>
+                    <div class="p-3">
+                        <p><span class="m-1 material-symbols-outlined"> explore </span>East</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col tomorrow Cards">
+                <p>Monday</p>
+                <i class="m-5 p-5 fa-solid fa-sun fa-2xl" style="color: #FFD43B;"></i>
+                <h1> <span class="material-symbols-outlined">arrow_upward </span>39.2<sup>o</sup>C</h1>
+                <h3><span class="material-symbols-outlined"> arrow_downward</span>26.9<sup>o</sup>C</h3>
+                <p class="text-primary">Sunny</p>
+            </div>
+
+            <div class="col after-tomorrow Cards">
+                <p>Tuesday</p>
+                <i class="m-5 p-5 fa-solid fa-sun fa-2xl" style="color: #FFD43B;"></i>
+                <h1> <span class="material-symbols-outlined">arrow_upward </span>38.4<sup>o</sup>C</h1>
+                <h3><span class="material-symbols-outlined"> arrow_downward</span>27.1<sup>o</sup>C</h3>
+                <p class="text-primary">Sunny</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer text-center p-5">
+        <input class="p-2 text-light" type="email" placeholder="Enter your email to subscribe...">
+        <button type="button" class="btn btn-info">Subscribe</button>
+        <p class="m-3 text-light">Copyrights 2014 Company name.Designed by <span>Mahmoud Rafaat</span>. All rights reserved</p>
+        <i class="fa-brands fa-facebook" style="color: #25a6d9;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #25a6d9;"></i>
+        <i class="fa-brands fa-pinterest" style="color: #25a6d9;"></i>
+        <i class="fa-brands fa-twitter" style="color: #25a6d9;"></i>
+    </div>
+</body>
+</html>
